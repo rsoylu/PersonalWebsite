@@ -1,8 +1,17 @@
+header{
+  background-color: #303030;
+}
+
+#navbar-container {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
 nav ul{
   list-style-type: none;
-  margin: 0 0 3% 0;
-  padding: 2em 0 4em 0;
-  background-color: #303030;
+  display: inline-block;
+  
 }
 
 nav ul li{
@@ -59,16 +68,13 @@ iframe{
 
 #indexbody{
   background: #5e5850;
-  
 }
 
 #memesbody{
-  background-color: #2d2f33;
- 
+  background-color: #201E24;
 }
 
 #gamesbody{
-  
   background-color: #5e5550;
 }
 
