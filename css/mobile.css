@@ -27,7 +27,11 @@ img.gamesimg{
 }
 
 .gamestext {
-  font-size: 200%;
+  font-size: 150%;
+}
+
+.gamestext2{
+  font-size: 250%;
 }
 
 @media screen and (min-width: 900px){
