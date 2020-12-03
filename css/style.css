@@ -132,4 +132,54 @@ h2.gamestext2 {
   font-family: 'Oswald', sans-serif;
 }
 
+@media screen and (min-width: 500px) and (max-width: 590px){
+  nav ul li a{
+    padding: 0.50em 2em;
+    font-size: 90%;
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  div#maingamesbody {
+    padding: 0% 10% 0% 10%;
+  }
+    
+  .gamestext {
+    font-size: 85%;
+  }
+  
+  img.gamesimg{
+    border-radius: 40%;
+    width: 80%;
+  }
+  
+}
+
+@media screen and (min-width: 590px) and (max-width: 720px) {
+  nav ul li a{
+    padding: 0.75em 4em;
+    font-size: 100%;
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  div#maingamesbody {
+    padding: 0% 15% 0% 15%;
+  }
+  .gamestext {
+    font-size: 90%;
+  }
+    
+  img.gamesimg{
+    border-radius: 40%;
+    width: 85%;
+  }
+
+}
+
+
 
