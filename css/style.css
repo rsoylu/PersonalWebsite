@@ -169,7 +169,7 @@ div#sidebar {
  div#map-text{
   position: relative;
   height: 200px;
-   
+  padding: 10px;
  }
  
 div#map-text p{
@@ -177,6 +177,13 @@ div#map-text p{
   font-size: 125%;
   
 }
+
+ div#map-text p strong{
+   font-family: 'Oswald', sans-serif;
+   font-size: 200%;
+   
+ }
+ 
  
  div#kitty-wrapper{
    position: relative;
