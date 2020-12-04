@@ -139,15 +139,51 @@ h2.gamestext2 {
 
 /* MAP STUFF HERE! */
 
+div#map-wrapper{
+  float: left;
+  margin: 10px;
+  width: 60%;
+  height: 90%;
+  position: absolute;
+  background-color: blue;
+}
 
 div#map {
-  margin: auto;
-  width: 90%;
-  padding: 5%;
-  height: 500px;
+  position: relative;
+  float: right;
+  width: 100%;
+  height: 100%;
+  padding: 2px;
   background-color: black;
   
 }
+
+div#sidebar {
+  height: 90%;
+  margin: 10px 10px 10px 0;
+  background-color: #696969;
+  width: 35%;
+  float: right;
+}
+ 
+ div#map-text{
+  position: relative;
+  height: 200px;
+   
+ }
+ 
+div#map-text p{
+  font-family: 'Oswald', sans-serif;
+  font-size: 125%;
+  
+}
+ 
+ div#kitty-wrapper{
+   position: relative;
+   float: right;
+   width: 100%;
+   bottom: 0px;
+ }
 
 /*MEDIA QUERIES */
 
