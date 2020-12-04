@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Games</title>
+    <title>Map</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <script type= "text/javascript" src="js/script.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" async defer></script>
     
   </head>
-  <body id= "gamesbody">
+  <body id= "mapbody">
     <header>
       <div id = "navbar-container">
         <nav>
@@ -22,14 +23,8 @@
         </nav>
       </div>
     </header>
-    <div id = "maingamesbody">
-      <div id= "maingames">
-        <h4 class= "gamestext">This page showcases some games that I like playing. </h4>
-        <h2 class= "gamestext2"><strong>Ace Attorney</strong></h2>
-        <img class= "gamesimg" src="media/aceattorney.jpg" alt="Game image 1">
-        <h2 class= "gamestext2"><strong>Portal 2</strong></h2>
-        <img class= "gamesimg" src="media/portal2.jpg" alt="Game image 2">
-      </div>
-    </div>
+    
+    <div id= "map"></div>
+    
   </body>
 </html>
