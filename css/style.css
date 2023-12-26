@@ -91,7 +91,7 @@ iframe{
 }
 
 div#mainindexbody{
-  padding: 0% 20% 5% 20%;
+  padding: 0% 20% 0% 20%;
 }
 
 div#mainmemesbody {
@@ -106,7 +106,7 @@ div#mainindex{
   float: left;
   width: 70%;
   background-color: BurlyWood;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   padding: 10%;
 }
 
