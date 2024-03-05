@@ -78,7 +78,7 @@ iframe{
 }
 
 #memesbody{
-  background-color: #201E24;
+  background-color: #0f0f0f;
 }
 
 #gamesbody{
@@ -291,4 +291,33 @@ div#map-text p{
   height: 0;
   position: absolute;
   width: 200px;
+}
+
+/* About me page */
+
+#aboutmemain {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* You can adjust this to control the height of the centered content */
+}
+
+#profileimgdiv {
+  padding: 5%;
+}
+
+#aboutmetext {
+  width: 30%;
+  padding: 15% 10% 10% 0;
+}
+
+
+.hey {
+  text-align: left;
+  color: #f7f7f7;
+}
+
+.aboutmet {
+  color: #f7f7f7;
 }
